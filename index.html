@@ -12,10 +12,8 @@
 
 <script>
 	fetch("streets.json")
-		.then(response => response.json())
-		.then(data => {
-			console.log(data)
-		})
+		.then(results => results.json())
+		.then(console.log)
 </script>
 </body>
 </html>
