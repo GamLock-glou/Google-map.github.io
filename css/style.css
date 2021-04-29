@@ -1,0 +1,61 @@
+/* Optional: Makes the sample page fill the window. */
+
+/*! Global tags: */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #EBE3CD;
+}
+a {  
+  color: #fff;
+   /* Цвет символа */
+  font-size: 200%; /* Размер шрифта */
+  text-decoration: none;
+} 
+/*! == Global tags == */
+
+
+.drop-down-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  background-color:#901313;
+  height: 3rem;
+}
+
+.about {
+  background-color: #EBE3CD;
+  text-align: left;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  
+}
+
+h2{
+  font-size: 2rem;
+  color: rgb(201, 118, 118);
+}
+
+p{
+  font-size: 1.5rem;
+}
+
+#name {
+  text-align: center;
+}
+
+#map {
+  height: 60%;
+  
+ }
+
+
+.portrait {
+  height: 20rem;
+}
+
